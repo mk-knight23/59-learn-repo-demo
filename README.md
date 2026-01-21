@@ -2,10 +2,11 @@
 ✨ Professional Repository Showcase Template
 
 ## Live Deployments
-- **Vercel**: [https://30-repo-demo-v1.vercel.app](https://30-repo-demo-v1.vercel.app)
-- **GitHub Pages**: [https://mk-knight23.github.io/30-repo-demo-v1/](https://mk-knight23.github.io/30-repo-demo-v1/)
 
-Status: 🟢 Live
+- **GitHub Pages:** https://mk-knight23.github.io/30-repo-demo-v1/
+- **Vercel:** https://30-repo-demo-v1.vercel.app
+
+Status: 🟡 GH Pages Live | Vercel Pending (Daily Limit)
 
 ## Features
 - 📱 Mobile Responsive
