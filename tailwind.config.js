@@ -7,8 +7,8 @@ export default {
     theme: {
         extend: {
             colors: {
-                nexus: "#f59e0b", // Gold for Nexus Hub
-                dark: "#000000",
+                nexus: "#facc15", // Rich Yellow-400 for a premium Nexus Hub feel
+                dark: "#020617",
             },
         },
     },
