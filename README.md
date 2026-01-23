@@ -20,11 +20,23 @@
 npm install
 npm run dev
 ```
-
 ## Documentation
-Additional technical details can be found in the [docs/](docs/) directory.
+- [Architecture Overview](docs/ARCHITECTURE.md)
+- [Design System](docs/DESIGN.md)
+- [Deployment Guide](docs/DEPLOY.md)
 
 ## Live Deployment
-GitHub Pages: [https://mk-knight23.github.io/30-repo-demo-v1/](https://mk-knight23.github.io/30-repo-demo-v1/)
-Status: 🟢 Live
-Last Updated: 2026-01-21
+- **GitHub Pages**: [https://mk-knight23.github.io/30-repo-demo-v1/](https://mk-knight23.github.io/30-repo-demo-v1/)
+- **Status**: 🟢 Live (Final Release)
+- **Modernized**: 2026-01-23
+
+---
+*Maintained by [Kazi Musharraf](https://github.com/mk-knight23)*
+
+## 🌐 Live Deployments
+
+- Vercel: https://30-repo-demo-v1.vercel.app
+- GitHub Pages: https://mk-knight23.github.io/30-repo-demo-v1/
+
+Status: 🟢 Deployments Live  
+Last Updated: 2026-01-23

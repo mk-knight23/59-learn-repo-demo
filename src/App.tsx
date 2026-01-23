@@ -165,7 +165,7 @@ export default function App() {
             <footer className="border-t border-white/5 py-16 px-8 mt-20 text-center opacity-40">
                 <p className="text-[10px] font-black uppercase tracking-[0.5em] mb-4">Nexus Hub Systems • MK Deployment Engine</p>
                 <div className="text-[9px] font-bold text-slate-700 uppercase tracking-widest leading-loose">
-                    ALL SYSTEMS OPERATIONAL • REPO_ARCHITECTURE_V3 • 2024 MK_MODERNIZATION_PROJECT
+                    ALL SYSTEMS OPERATIONAL • REPO_ARCHITECTURE_V3 • 2026 MK_MODERNIZATION_PROJECT
                 </div>
             </footer>
         </div>
