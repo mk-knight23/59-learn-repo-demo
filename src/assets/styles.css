@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 90s Web Base Styles */
+
+@layer base {
+  body {
+    @apply bg-90s-gray text-black font-90s-body;
+    background-image: 
+      radial-gradient(circle at 20% 80%, rgba(0, 128, 128, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(128, 0, 0, 0.05) 0%, transparent 50%);
+    min-height: 100vh;
+  }
+  
+  /* Table reset for layout tables */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Links - classic 90s style */
+  a {
+    @apply text-90s-navy underline;
+  }
+  
+  a:visited {
+    @apply text-90s-green;
+  }
+  
+  a:hover {
+    @apply text-90s-red;
+  }
+}
+
+@layer components {
+  /* 3D Beveled Button - Raised */
+  .btn-90s {
+    @apply px-4 py-2 bg-90s-silver text-black font-bold;
+    border: 2px outset #C0C0C0;
+    font-family: "MS Sans Serif", Tahoma, sans-serif;
+    font-size: 12px;
+  }
+  
+  .btn-90s:active {
+    border: 2px inset #C0C0C0;
+  }
+  
+  /* 3D Panel - Sunken */
+  .panel-sunken {
+    @apply bg-90s-gray-light;
+    border: 2px inset #C0C0C0;
+  }
+  
+  /* 3D Panel - Raised */
+  .panel-raised {
+    @apply bg-90s-silver;
+    border: 2px outset #C0C0C0;
+  }
+  
+  /* Code block styling */
+  .code-90s {
+    @apply bg-90s-gray-light text-90s-green font-90s-code text-xs p-3;
+    border: 1px solid #808080;
+  }
+  
+  /* Navigation link - no underline for nav */
+  .nav-link {
+    @apply no-underline block px-3 py-1;
+  }
+  
+  /* Marquee container */
+  .marquee-container {
+    @apply bg-90s-navy text-white overflow-hidden whitespace-nowrap;
+  }
+  
+  /* Visitor counter digit */
+  .counter-digit {
+    @apply inline-block bg-black text-90s-red font-90s-code text-lg px-1 mx-0.5;
+    border: 1px inset #404040;
+  }
+  
+  /* Horizontal rule - 3D effect */
+  .hr-90s {
+    @apply border-0 h-0.5;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  
+  /* Blink animation class */
+  .blink-90s {
+    animation: blink 1s step-end infinite;
+  }
+  
+  /* "Under construction" style banner */
+  .construction-banner {
+    @apply bg-90s-yellow text-90s-red font-90s-nav text-center p-2;
+    border: 2px dashed #FF0000;
+  }
+  
+  /* Guestbook entry styling */
+  .guestbook-entry {
+    @apply bg-white border-2 border-90s-silver p-3 mb-3;
+  }
+  
+  /* Intentional misalignment quirk */
+  .quirk-offset {
+    position: relative;
+    left: 1px;
+    top: 2px;
+  }
+  
+  .quirk-offset-alt {
+    position: relative;
+    left: -1px;
+    top: -1px;
+  }
+}
+
+/* Keyframes for blinking */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Custom scrollbar for that 90s feel */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E0E0E0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C0C0C0;
+  border: 2px outset #C0C0C0;
+}
+
+::-webkit-scrollbar-button {
+  background: #C0C0C0;
+  border: 2px outset #C0C0C0;
+  height: 16px;
+}
