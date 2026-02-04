@@ -15,9 +15,9 @@ A nostalgic tribute to 90s web design, built as a practical Vue 3 learning resou
 
 ## Live Links
 
-- **GitHub**: https://github.com/mk-knight23/30-repo-demo-v1
-- **GitHub Pages**: https://mk-knight23.github.io/30-repo-demo-v1/
-- **Vercel**: https://59-starter-repo-demo.vercel.app ✅
+- **Vercel**: https://59-starter-repo-demo.vercel.app
+- **Cloudflare Pages**: https://59-starter-repo-demo.pages.dev
+- **GitHub Pages**: https://mk-knight23.github.io/59-starter-repo-demo/
 
 ### Deployment Platforms
 - ✅ Vercel (configured: prj_ebbim5TYbig5wVyIzmFsbUfXHGNq)
