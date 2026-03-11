@@ -5,6 +5,7 @@
   "description": "A Vue 3 learning resource with 90s retro web aesthetic",
   "type": "module",
   "scripts": {
+    "production": "npm run build && npm start",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
