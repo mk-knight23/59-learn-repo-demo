@@ -8,7 +8,9 @@
     "production": "npm run build && npm start",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "jest",
+    "lint": "eslint ."
   },
   "keywords": [
     "vue3",
